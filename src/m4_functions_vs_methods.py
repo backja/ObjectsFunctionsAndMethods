@@ -86,6 +86,7 @@ def main():
     # When the TODOs ask you to test YOUR code, put YOUR tests here:
     try_methods()
     try_functions()
+    try_methods_and_functions()
 
     window.close_on_mouse_click()
 
@@ -243,7 +244,7 @@ def try_methods_and_functions():
       8. Draw a SQUARE whose sides are each of length 50.
     """
     ####################################################################
-    # TODO: 5. Implement this function, per its doc-string above.
+    # Done: 5. Implement this function, per its doc-string above.
     #    Put a statement in   main   to test this function
     #    (by calling this function).  IMPORTANT, IMPORTANT, IMPORTANT:
     #    Keep reading the rest of this TO DO before doing the above!
@@ -262,7 +263,12 @@ def try_methods_and_functions():
     craig.pen.color='red'
     draw_many_squares(craig,10,50,15)
     craig.speed=100
-    craig.pen.thickness=
+    craig.pen.thickness=35
+    draw_many_squares(craig,8,300,60)
+    craig.pen=rg.Pen('black',3)
+    craig.backward(200)
+    craig.draw_circle(30)
+    craig.draw_square(50)
 
 
 
