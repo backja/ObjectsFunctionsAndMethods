@@ -26,7 +26,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #              The positive y-axis points to the bottom of the screen.
 #
 #     b. Write a line of code that constructs a basic RoseWindow object:
-#            window=rg.RoseWindow(300,500,'Blank Window')
+#            window=rg.RoseWindow()
 #
 #     c. What is the default height of a RoseWindow?
 #        (Type the code shown in your answer above within main to see if PyCharm will help you figure out the answer.

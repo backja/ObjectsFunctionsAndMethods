@@ -33,7 +33,7 @@ def two_circles():
 
     circlePoint1=rg.Point(100,100)
     circle1=rg.Circle(circlePoint1,50)
-    circle1.fill_color='red'
+    circle1.fill_color = 'red'
     circle1.attach_to(window)
 
     circlePoint2=rg.Point(250,180)
@@ -121,6 +121,7 @@ def circle_and_rectangle():
     print(rectangleCenter.x)
     print(rectangleCenter.y)
 
+
 def lines():
     """
     -- Constructs a rg.RoseWindow.
@@ -162,7 +163,7 @@ def lines():
     window.render()
 
     print("Line 1:")
-    mid1=line1.get_midpoint()
+    mid1 = line1.get_midpoint()
     print(mid1)
     print(mid1.x)
     print(mid1.y)
