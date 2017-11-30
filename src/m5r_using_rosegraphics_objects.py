@@ -10,7 +10,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 
 ########################################################################
 #
-# TODO: 2.
+# Done: 2.
 #   RUN this program.  Then answer the following,
 #     GETTING HELP AS NEED! (Ask questions!!!)
 #
@@ -134,7 +134,7 @@ def example3():
     # ------------------------------------------------------------------
     center_point = rg.Point(300, 100)
     radius = 50
-    circle = rg.Circle.(center_point, radius)
+    circle = rg.Circle(center_point, radius)
     circle.fill_color = 'green'
     circle.attach_to(window)
 
