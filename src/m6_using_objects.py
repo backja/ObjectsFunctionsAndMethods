@@ -162,13 +162,6 @@ def lines():
 
     window.render()
 
-    print("Line 1:")
-    mid1 = line1.get_midpoint()
-    print(mid1)
-    print(mid1.x)
-    print(mid1.y)
-
-    print("Line 2:")
     mid2=line2.get_midpoint()
     print(mid2)
     print(mid2.x)
